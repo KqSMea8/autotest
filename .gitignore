@@ -1,0 +1,15 @@
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.html
+*.png
+*.pyx
+*.swp
+TEST/GUI/htmlcov/
+*.coverage
+*.coverage.*
+~*.xlsx
+*idea*
+.vscode/
+testSingleCase.py
+geckodriver.log
