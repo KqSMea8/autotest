@@ -8,3 +8,6 @@ python manager.py
 python -m pip install --upgrade pip
 pip install pymysql
 pip install mysqlclient
+
+#jenkins htmlreport引用其他资源时的问题
+java -Dhudson.model.DirectoryBrowserSupport.CSP="" -jar jenkins.war 
