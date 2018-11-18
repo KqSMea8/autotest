@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>first case</title>
+</head>
+<body>
+<p>get form</p>
+	<form action="/search" method="get">
+		<input type="text" name="q">
+		<input type="submit" name="SEARCH">
+	</form>
+<br>
+<hr>
+<p>post form</p>
+	<form action="/search-post" method="post">
+		{% csrf_token %}
+		<input type="text" name="q">
+		<input type="submit" name="Submit">
+	</form>
+	
+	<p>{{ rlt }}</p>
+</body>
+</html>
