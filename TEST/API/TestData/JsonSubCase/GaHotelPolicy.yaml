@@ -1,0 +1,192 @@
+- - caseId: GHP_case_0001 
+  - caseName: Online查询结果正常 
+  - apiKey: GaHotelPolicy
+  - Author: '@俞磊芳'
+  - Body: {
+            "HotelId" : "346401",
+            "Head" : 
+            {
+                "Language" : "0",
+                "Source" : "2",
+                "Currency" : "1",
+                "PaymentCurrency" : "1",
+                "PaymentCurrencyList" : [],
+                "Version" : "2.0",
+                "UID" : "wwwwww",
+                "VID" : "",
+                "Token" : "8C94C49613A027FD",
+                "TokenValidTime" : "",
+                "IP" : "140.207.231.5",
+                "IsQuickBooking" : "0",
+                "ClientID" : "",
+                "DeviceID" : "",
+                "APIKey" : "CtripWap",
+                "ClientSign" : "",
+                "ClientSignTime" : "0",
+                "ServiceCode" : "",
+                "Site" : "",
+                "Union" : "",
+                "Ticket" : ""
+            }
+        }
+  - respect: {Ack: Success}
+- - caseId: GHP_case_0002
+  - caseName: ANDROID-查不到的酒店ID 
+  - apiKey: GaHotelPolicy
+  - Author: '@俞磊芳'
+  - Body: {
+              "HotelId" : "1",
+              "Head" : 
+              {
+                "Language" : "7",
+                "Source" : "0",
+                "Currency" : "0",
+                "PaymentCurrency" : "0",
+                "PaymentCurrencyList" : [],
+                "Version" : "",
+                "UID" : "wwwwww",
+                "VID" : "",
+                "Token" : "",
+                "TokenValidTime" : "",
+                "IP" : "",
+                "IsQuickBooking" : "0",
+                "ClientID" : "",
+                "DeviceID" : "",
+                "APIKey" : "CtripOnline",
+                "ClientSign" : "",
+                "ClientSignTime" : "0",
+                "ServiceCode" : "",
+                "Site" : "",
+                "Union" : "",
+                "Ticket" : ""
+               }
+           }
+  - respect: {Ack: Success,HotelPolicy: {}}
+- - caseId: GHP_case_0003
+  - caseName: ANDROID查询结果正常 
+  - apiKey: GaHotelPolicy
+  - Author: '@俞磊芳'
+  - Body: {
+              "HotelId" : "7071663",
+              "Head" : 
+              {
+                "Language" : "7",
+                "Source" : "0",
+                "Currency" : "0",
+                "PaymentCurrency" : "0",
+                "PaymentCurrencyList" : [],
+                "Version" : "",
+                "UID" : "wwwwww",
+                "VID" : "",
+                "Token" : "",
+                "TokenValidTime" : "",
+                "IP" : "",
+                "IsQuickBooking" : "0",
+                "ClientID" : "",
+                "DeviceID" : "",
+                "APIKey" : "CtripOnline",
+                "ClientSign" : "",
+                "ClientSignTime" : "0",
+                "ServiceCode" : "",
+                "Site" : "",
+                "Union" : "",
+                "Ticket" : ""
+              }
+            }
+  - respect: {Ack: Success}
+- - caseId: GHP_case_0004
+  - caseName: WAP查询结果正常 
+  - apiKey: GaHotelPolicy
+  - Author: '@俞磊芳'
+  - Body: {
+              "HotelId" : "346401",
+              "Head" : 
+              {
+                "Language" : "0",
+                "Source" : "2",
+                "Currency" : "1",
+                "PaymentCurrency" : "1",
+                "PaymentCurrencyList" : [],
+                "Version" : "2.0",
+                "UID" : "wwwwww",
+                "VID" : "",
+                "Token" : "8C94C49613A027FD",
+                "TokenValidTime" : "",
+                "IP" : "140.207.231.5",
+                "IsQuickBooking" : "0",
+                "ClientID" : "",
+                "DeviceID" : "",
+                "APIKey" : "CtripWap",
+                "ClientSign" : "",
+                "ClientSignTime" : "0",
+                "ServiceCode" : "",
+                "Site" : "",
+                "Union" : "",
+                "Ticket" : ""
+              }
+          }
+  - respect: {Ack: Success,Pet: 'Pets are not allowed.'}
+- - caseId: GHP_case_0005
+  - caseName: IOS查询结果正常 
+  - apiKey: GaHotelPolicy
+  - Author: '@俞磊芳'
+  - Body: {
+                "HotelId" : "1645076",
+                "Head" : 
+                {
+                  "Language" : "7",
+                  "Source" : "1",
+                  "Currency" : "0",
+                  "PaymentCurrency" : "",
+                  "PaymentCurrencyList" : "",
+                  "Version" : "500.000",
+                  "UID" : "wwwwww",
+                  "VID" : "",
+                  "Token" : "6D1365C582CF94F0",
+                  "TokenValidTime" : "",
+                  "IP" : "",
+                  "IsQuickBooking" : "0",
+                  "ClientID" : "17001122110000428894",
+                  "DeviceID" : "82DDE803-A1AA-4804-B012-D7823E2A5005",
+                  "APIKey" : "CtripIOS21",
+                  "ClientSign" : "9F3DA7CF8CAD82CBA4F70D1DAF9B7468",
+                  "ClientSignTime" : "1494470058",
+                  "ServiceCode" : "",
+                  "Site" : "",
+                  "Union" : "",
+                  "Ticket" : "0F701C129C6C2612A9EA862FC3C6F4CABFAB2739B1EEBF6A4D79D96E7EC7CB23"
+                }
+          }
+  - respect: {Ack: Success,Pet: '不可攜帶寵物。'}
+- - caseId: GHP_case_0006
+  - caseName: Online-非正常HotelID 
+  - apiKey: GaHotelPolicy
+  - Author: '@俞磊芳'
+  - Body: {
+                  "HotelId" : "0",
+                  "Head" : 
+                  {
+                    "Language" : "1",
+                    "Source" : "3",
+                    "Currency" : "0",
+                    "PaymentCurrency" : "0",
+                    "PaymentCurrencyList" : [],
+                    "Version" : "",
+                    "UID" : "wwwwww",
+                    "VID" : "",
+                    "Token" : "BF8605E593D35343",
+                    "TokenValidTime" : "",
+                    "IP" : "127.0.0.1",
+                    "IsQuickBooking" : "0",
+                    "ClientID" : "",
+                    "DeviceID" : "",
+                    "APIKey" : "CtripOnline",
+                    "ClientSign" : "",
+                    "ClientSignTime" : "0",
+                    "ServiceCode" : "",
+                    "Site" : "",
+                    "Union" : "",
+                    "Ticket" : ""
+                  }
+            }
+  - respect: {Ack: Failure}

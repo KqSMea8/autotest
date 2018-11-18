@@ -1,0 +1,49 @@
+<GaHotelAvailRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://soa.ctrip.com/Global/API/HotelAvail/v1">
+  <Head xmlns="http://soa.ctrip.com/Global/API/Comm/head/v1">
+    <Language>TC</Language>
+    <Source>WAP</Source>
+    <Currency>USD</Currency>
+    <PaymentCurrency>USD</PaymentCurrency>
+    <Version>2.0</Version>
+    <UID>wwwwww</UID>
+    <VID>
+    </VID>
+    <Token>BCA47D1021CDE09A</Token>
+    <TokenValidTime>
+    </TokenValidTime>
+    <IP>140.207.231.5</IP>
+    <IsQuickBooking>0</IsQuickBooking>
+    <ClientID>
+    </ClientID>
+    <DeviceID>
+    </DeviceID>
+    <APIKey>CtripWap</APIKey>
+    <ClientSign>
+    </ClientSign>
+    <ClientSignTime>0</ClientSignTime>
+    <ServiceCode>
+    </ServiceCode>
+    <Site xsi:nil="true">
+    </Site>
+    <Union xsi:nil="true">
+    </Union>
+    <Ticket>
+    </Ticket>
+  </Head>
+  <BalanceType>2</BalanceType>
+  <GuestPerson>1</GuestPerson>
+  <Quantity>1</Quantity>
+  <CheckIn>1494374400</CheckIn>
+  <CheckOut>1494460800</CheckOut>
+  <IncludeEnd>0</IncludeEnd>
+  <RoomID>48454620</RoomID>
+  <VendorID>0</VendorID>
+  <CheckAvlID>0</CheckAvlID>
+  <RatePlanID>
+  </RatePlanID>
+  <LatestArrivalTime>0</LatestArrivalTime>
+  <OriOrderID>
+  </OriOrderID>
+  <ModifyType xsi:nil="true">
+  </ModifyType>
+</GaHotelAvailRequest>

@@ -1,0 +1,129 @@
+- - caseId: HSC_case_0001
+  - caseName: SEO限定时间 
+  - apiKey: GaHotelSearch
+  - Author: '@俞磊芳'
+  - Body: {
+            "PublicParameter" : 
+            {
+                "ICAO" : "",
+                "CityID" : "0",
+                "CityType" : "0",
+                "CheckIn" : "/SVCCommand/:/AddDate(1,long)/",
+                "CheckInTime" : "2018-07-16T00:00:00",
+                "CheckOut" : "/SVCCommand/:/AddDate(2,long)/",
+                "CheckOutTime" : "2018-07-17T00:00:00",
+                "StarList" : "",
+                "HotelList" : "",
+                "Location" : "0",
+                "Zone" : "0",
+                "District" : "0",
+                "PageNo" : "1",
+                "PageSize" : "10",
+                "HotelName" : "",
+                "StarLicence" : "",
+                "Sort" : "0",
+                "OrderBy" : "0",
+                "RoomCount" : "0",
+                "IsFGToPP" : "0",
+                "IsOnlyPP" : "0",
+                "IsOnlyFG" : "0",
+                "IsRequestTravelMoney" : "0",
+                "RoomID" : "0",
+                "CustomerEval" : "0",
+                "HotelPriceRange" : "",
+                "IsPromoteRoomType" : "",
+                "HotelFeatureFilterList" : "",
+                "BrandID" : "0",
+                "BrandList" : "",
+                "IsNoIgnoreNoRoomHotel" : "1",
+                "PlatformPromotionIDList" : "",
+                "CellphoneVisiable" : "0",
+                "IsRecomment" : "T",
+                "IsRecommendV2" : "0",
+                "MetroID" : "",
+                "ZoneIDList" : "",
+                "GroupIDList" : "",
+                "IsFreeCancel" : "F",
+                "IsShadowRoom" : "true",
+                "SoldoutHotelDisplayType" : "0",
+                "CustomerEvalStr" : "",
+                "ProvinceID" : "0",
+                "CityCenterDotX" : "0",
+                "CityCenterDotY" : "0",
+                "IsFavoriteHotel" : "0",
+                "MetroDistance" : "0",
+                "BusinessLog" : "",
+                "IsShowTotalAmount" : "1",
+                "TopSetHotelList" : ""
+            },
+            "MapParameter" : 
+            {
+                "DotX" : "40.15281116554366",
+                "DotY" : "94.748993946872005",
+                "Radius" : "5",
+                "DotX2" : "-1",
+                "DotY2" : "-1",
+                "MapType" : "",
+                "AutoZoom" : "0"
+            },
+            "Facilitys" : 
+            [
+
+            ],
+            "IsNewSortRoom" : "0",
+            "UsePriceBeforeTaxFilter" : "1",
+            "FilterRoomByPerson" : "1",
+            "ChildrenAgeList" : 
+            [
+
+            ],
+            "Timeoffset" : "-1",
+            "SearchParameterType" : "0",
+            "BISearch" : 
+            [
+
+            ],
+            "Head" : 
+            {
+                "Language" : "7",
+                "Source" : "0",
+                "Currency" : "0",
+                "PaymentCurrency" : "",
+                "PaymentCurrencyList" : 
+                [
+
+                ],
+                "Version" : "605.000",
+                "UID" : "E401495892",
+                "VID" : "",
+                "Token" : "DCE23599C3CFC152D1EB7A6C69074359",
+                "AccessToken" : "",
+                "TokenValidTime" : "",
+                "IP" : "e41ca7e83f90975ea13b2ce254520e9e2f6ea3f4384b21136a4235ffc48c132c",
+                "IsQuickBooking" : "0",
+                "ClientID" : "de8c18af1e5a8415d562901da20512720c9ef95774f4867a487c4db922c8bee2",
+                "DeviceID" : "3120717a86249573a668d75af099e4276b4f51708b07d42b3cefc6b4a3fdc92c",
+                "APIKey" : "CtripAndriod",
+                "ClientSign" : "",
+                "ClientSignTime" : "1531737763",
+                "ServiceCode" : "",
+                "Site" : "",
+                "Union" : "",
+                "Ticket" : "1A6D100CE95D1DB5D60695ED577DF9073B4B8AB8574BF6DF0BC874B060AD29B5",
+                "Invoker" : "",
+                "Group" : "1",
+                "Locale" : "7",
+                "QueryKey" : "",
+                "Platform" : "4",
+                "Caller" : "IbuHotelSEO",
+                "UserRegion" : "GB",
+                "J" : "0",
+                "Frontends" : 
+                [
+
+                ],
+                "PageID" : "",
+                "SourceID" : ""
+            }
+        }
+  - respect: {Ack: Warning,Extension: []}

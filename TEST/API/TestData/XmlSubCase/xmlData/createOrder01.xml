@@ -1,0 +1,58 @@
+<GaCreateOrderRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://soa.ctrip.com/Global/API/CreateOrder/v1" CurrFlightOrderID="" CityID="10" HotelID="98128" RoomID="4910799" FirstOrderID="0" EditOrderId="0" VendorID="200" CountryFX="86" CountryEmail="442664954@qq.com" ContactTel="" ForeignMobile="" ContactMobilePhone="13801692736" RoomNumber="1" Remarks="" PayType="FG" CheckIn="1514592000" CheckOut="1514678400" RatePlanID="" CheckAvlID="0" LastArrival="16:00" EarlyArrival="12:00" RemarkInfoIdx="" CTMValue="" IncludeEnd="0" PartnerCouponCode="">
+  <Head xmlns="http://soa.ctrip.com/Global/API/Comm/head/v1">
+    <Language>TC</Language>
+    <Source>Online</Source>
+    <Currency>HKD</Currency>
+    <PaymentCurrency>CNY</PaymentCurrency>
+    <Version>
+    </Version>
+    <UID>chr886886</UID>
+    <VID>
+    </VID>
+    <Token>93B5EB044727B0169B0F817F46188743</Token>
+    <TokenValidTime>
+    </TokenValidTime>
+    <IP>140.207.231.5</IP>
+    <IsQuickBooking>0</IsQuickBooking>
+    <ClientID>
+    </ClientID>
+    <DeviceID>
+    </DeviceID>
+    <APIKey>CtripOnline</APIKey>
+    <ClientSign>
+    </ClientSign>
+    <ClientSignTime>0</ClientSignTime>
+    <ServiceCode>
+    </ServiceCode>
+    <Site xsi:nil="true">
+    </Site>
+    <Union xsi:nil="true">
+    </Union>
+    <Ticket>
+    </Ticket>
+  </Head>
+  <Guests InfoID="0" FullName="Surnamea/Given Name" LastName="ttttyy" MiddleName="" FirstName="hhjkg">
+  </Guests>
+  <Contact InfoID="0" FullName="lihu" LastName="" MiddleName="" FirstName="">
+  </Contact>
+  <Union Ouid="ae47c70e-cec4-4e41-813e-7b9090c87fad" SID="448235" AllianceID="6107">
+  </Union>
+  <EarliestTime xsi:nil="true">
+  </EarliestTime>
+  <LatestArrivalTime xsi:nil="true">
+  </LatestArrivalTime>
+  <IsReceiveTextRemark>F</IsReceiveTextRemark>
+  <ModifyType xsi:nil="true">
+  </ModifyType>
+  <IsCheckRepeatOrder>T</IsCheckRepeatOrder>
+  <Invoice xsi:nil="true">
+  </Invoice>
+  <PartnerTag>
+  </PartnerTag>
+  <PaymentTransType xsi:nil="true">
+  </PaymentTransType>
+  <RmsToken>
+  </RmsToken>
+  <ShadowPriceInfo IsLadderRotateFlag="false" IsForceOrderRoom="false" ShadowID="0" AgentName="" ComparativeType="" ShadowCtx="" ExtensionType="" RewardID="0">
+  </ShadowPriceInfo>
+</GaCreateOrderRequest>

@@ -1,0 +1,12 @@
+- - caseId: HSS_case_0001
+  - caseName: 单个韩文搜索
+  - apiKey: HotelSearchService
+  - Author: '@俞磊芳'
+  - Body: HotelSearchService.xml
+  - respect: {Ack: Success}
+- - caseId: GCO_case_0001
+  - caseName: Online-现付非担保下单
+  - apiKey: GaCreateOrder
+  - Author: '@俞磊芳'
+  - Body: createOrder01.xml
+  - respect: {Ack: Success}

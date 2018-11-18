@@ -1,0 +1,6 @@
+- - caseId: GHA_case_0009
+  - caseName: Online-现付非担保下单
+  - apiKey: GaHotelAvail
+  - Author: '@俞磊芳'
+  - Body: GHA09.xml
+  - respect: {Ack: Success}

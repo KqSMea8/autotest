@@ -1,0 +1,58 @@
+- - caseId: GHS_case_0001
+  - caseName: 前台服务语言-HK 
+  - apiKey: GaHotelSingle
+  - Author: '@俞磊芳'
+  - Body: {
+            "CityID" : "1369",
+            "HotelID" : "711357",
+            "CheckIn" : "1531180800",
+            "CheckInTime" : "2018-09-10T00:00:00",
+            "CheckOut" : "1531267200",
+            "CheckOutTime" : "2018-09-11T00:00:00",
+            "PartialType" : "3",
+            "IsShadowRoom" : "",
+            "ChildrenAgeList" : [],
+            "Head" : 
+            {
+                "Locale" : "7",
+                "Language" : "7",
+                "Source" : "3",
+                "Currency" : "0",
+                "PaymentCurrency" : "0",
+                "PaymentCurrencyList" : [],
+                "Version" : "",
+                "UID" : "E401495892",
+                "VID" : "1530719360712.2q08mk",
+                "Token" : "DCE23599C3CFC152408797661DF86C44",
+                "AccessToken" : "",
+                "TokenValidTime" : "",
+                "IP" : "85221fda9a5fe25bab6bb87d1002e52b183324f0003cfbee56d877510581a7b4",
+                "IsQuickBooking" : "0",
+                "ClientID" : "",
+                "DeviceID" : "",
+                "APIKey" : "CtripOnline",
+                "ClientSign" : "",
+                "ClientSignTime" : "0",
+                "ServiceCode" : "",
+                "Site" : "2",
+                "Union" : 
+                {
+                    "Ouid" : "",
+                    "SID" : "",
+                    "AllianceID" : "",
+                    "ShoppingID" : ""
+                },
+                "Ticket" : "uoeOwviAJ6VQEgTNwLuTqSV9j/bS+aOP3Riia1P+kyQbgkQZsD2gieMfNgWbbVveLwTASNNyzyhZCBai/8ul4XhQtCgg7TugzdpCmqBw1ow7IiaFAb1xubGl4IUlc5d7qw4DDo3bR3HrzeWECnLKvV4uL1RJqUY3xPVnXGRJ9zBRv5cu4E+u3XpFzaZmb50jJDqwe+2QhWedasa98CIYsU+RIV03fNj0rYukmTDGt+WKluUy9cS4kK35HX2jhv4Yo3bteuGsjoijIoYgP3YlUP8Z1ckSgLK/BCxj4SMYyXFqNkrEciw9MQ==",
+                "Invoker" : "",
+                "Group" : "1",
+                "QueryKey" : "z6HvYMw16EyzBWTrT6u3ew",
+                "Platform" : "1",
+                "Caller" : "1",
+                "UserRegion" : "",
+                "J" : "0",
+                "Frontends" : [],
+                "PageID" : "",
+                "SourceID" : ""
+            }
+        }
+  - respect: {IsGuarantee: false , CityName: 暹粒 , Ack: Success}

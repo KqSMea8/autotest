@@ -1,0 +1,37 @@
+<HotelSearchServiceRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://soa.ctrip.com/Global/API/HotelSearchService/v1">
+  <Head>
+    <Language xmlns="http://soa.ctrip.com/Global/API/Comm/head/v1">KR</Language>
+    <Source xmlns="http://soa.ctrip.com/Global/API/Comm/head/v1">IOS</Source>
+    <Currency xmlns="http://soa.ctrip.com/Global/API/Comm/head/v1">CNY</Currency>
+    <PaymentCurrency xmlns="http://soa.ctrip.com/Global/API/Comm/head/v1">CNY</PaymentCurrency>
+    <PaymentCurrencyList xmlns="http://soa.ctrip.com/Global/API/Comm/head/v1">CNY</PaymentCurrencyList>
+    <Version xmlns="http://soa.ctrip.com/Global/API/Comm/head/v1">500.000</Version>
+    <UID xmlns="http://soa.ctrip.com/Global/API/Comm/head/v1">String</UID>
+    <VID xmlns="http://soa.ctrip.com/Global/API/Comm/head/v1">String</VID>
+    <Token xmlns="http://soa.ctrip.com/Global/API/Comm/head/v1">String</Token>
+    <TokenValidTime xmlns="http://soa.ctrip.com/Global/API/Comm/head/v1">String</TokenValidTime>
+    <IP xmlns="http://soa.ctrip.com/Global/API/Comm/head/v1">String</IP>
+    <IsQuickBooking xmlns="http://soa.ctrip.com/Global/API/Comm/head/v1">0</IsQuickBooking>
+    <ClientID xmlns="http://soa.ctrip.com/Global/API/Comm/head/v1">17001083310000476211</ClientID>
+    <DeviceID xmlns="http://soa.ctrip.com/Global/API/Comm/head/v1">B80CD233-D083-4AD0-8E54-90F3C9257CEA</DeviceID>
+    <APIKey xmlns="http://soa.ctrip.com/Global/API/Comm/head/v1">CtripIOS21</APIKey>
+    <ClientSign xmlns="http://soa.ctrip.com/Global/API/Comm/head/v1">9273A9F69550996CBE367EAD1BA642B6</ClientSign>
+    <ClientSignTime xmlns="http://soa.ctrip.com/Global/API/Comm/head/v1">1490195178</ClientSignTime>
+    <ServiceCode xmlns="http://soa.ctrip.com/Global/API/Comm/head/v1">String</ServiceCode>
+    <Site xmlns="http://soa.ctrip.com/Global/API/Comm/head/v1">HK_EN</Site>
+    <Union xmlns="http://soa.ctrip.com/Global/API/Comm/head/v1">
+      <Ouid>String</Ouid>
+      <SID>String</SID>
+      <AllianceID>String</AllianceID>
+    </Union>
+    <Ticket xmlns="http://soa.ctrip.com/Global/API/Comm/head/v1">String</Ticket>
+  </Head>
+  <KeyWord>용</KeyWord>
+  <GeoInfo>
+    <Lat xmlns="http://soa.ctrip.com/Global/API/HotelComm/types/v1">0</Lat>
+    <Lot xmlns="http://soa.ctrip.com/Global/API/HotelComm/types/v1">0</Lot>
+    <MapType xmlns="http://soa.ctrip.com/Global/API/HotelComm/types/v1">GD</MapType>
+  </GeoInfo>
+  <ProvinceID>0</ProvinceID>
+  <DistrictID>0</DistrictID>
+</HotelSearchServiceRequest>
